@@ -1,0 +1,66 @@
+body {
+  background-color: aliceblue;
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+  line-height: normal;
+}
+
+h1, h2 {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+color: blue;
+font-size: xx-large;
+line-height: normal;
+}
+
+h2 {
+  color: black;
+  font-size: large;
+  line-height: normal;
+}
+
+a:hover {
+  color: brown;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.bloc-blanc {
+  background-color: white;
+  padding: 60px;
+  margin: 10px 0px;
+  text-align: center;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#intro p {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
